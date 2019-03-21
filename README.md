@@ -1,6 +1,6 @@
 # Sports app landing
 
-You can read the application by clicking on the [link](https://masterluiji19.github.io/sports-app-landing/src/index.html)
+You can learn more about the application by clicking on the [link](https://masterluiji19.github.io/sports-app-landing/src/index.html)
 
 ### Description
 
