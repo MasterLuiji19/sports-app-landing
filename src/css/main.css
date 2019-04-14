@@ -1,0 +1,380 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font_lato: Lato, sans-serif;
+  --background: #f4f6f9;
+  --title: #333333;
+  --text-color: #4f4f4f;
+  --white: #fff;
+  --black: #000;
+  --form-back: #eeeeee;
+  --input: #979797;
+  --blue: #00adee;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: var(--font_lato);
+  color: var(--text-color);
+}
+
+#general-section {
+  background: url(../img/Frame.png)no-repeat right;
+  background-color: var(--background);
+  width: 1440px;
+  margin: auto;
+}
+
+.general {
+  padding-bottom: 164px;
+  margin-left: 163px;
+}
+
+.image-logo {
+  margin-bottom: 133px;
+  margin-top: 61px;
+}
+
+.title-text {
+  font-size: 36px;
+  width: 546px;
+  color: var(--title);
+  margin: 0px 0px 30px 0px;
+}
+
+.description-text {
+  font-size: 18px;
+  width: 453px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.button {
+  text-decoration: none;
+  width: 157px;
+  margin-right: 37px;
+}
+
+#description-app {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+}
+
+.arsenal-chelsea {
+  background:  linear-gradient(to left, var(--white), rgba(255, 255, 255, 0) 80%), url(../img/Rectangle.png) no-repeat;
+  min-width: 805px;
+  padding-bottom: 265px;
+}
+
+.cards-app {
+  padding: 109px 0 0 163px;
+  position: relative;
+}
+
+.first-card {
+  margin: 0;
+  padding: 27px 0 0 15px;
+  width: 360px;
+  height: 218px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 4px;
+  box-shadow: -22px 24px 49px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+}
+
+.comands {
+  margin: 13px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.status {
+  color: var(--black);
+}
+
+.arsenal {
+  position: absolute;
+  top: 46px;
+  right: 78px;
+  z-index: 0;
+}
+
+.chelsea {
+  position: absolute;
+  top: 46px;
+  right: 5px;
+  z-index: 1;
+}
+
+.form-notification {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--form-back);
+  border-radius: 0px 0px 4px 4px;
+  margin-left: -15px;
+  display: flex;
+  align-items: center;
+}
+
+.turn-on {
+  font-size: 19px;
+  margin-left: 15px;
+}
+
+.input[type="checkbox"] {
+  width: 27px;
+  height: 12px;
+  -webkit-appearance: none;
+  background: var(--input);
+  outline: none;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px rgba(0,0,0, .2);
+  transition: 0.5s;
+  position: absolute;
+  right: 26px;
+}
+.input:checked[type="checkbox"] {
+  background: var(--blue);
+}
+.input[type="checkbox"]::before {
+  content: '';
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  top: -5px;
+  left: -6px;
+  background: var(--white);
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0,0,0, .2);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.input:checked[type="checkbox"]::before {
+  left: 15px;
+}
+
+.video {
+  width: 360px;
+  height: 218px;
+  border-radius: 4px;
+  position: absolute;
+  top: 296px;
+  right: 176px;
+  outline: none;
+}
+
+.about-app {
+  margin-top: 133px;
+  width: 426px;
+}
+
+.subtitle {
+  line-height: 21px;
+  color: var(--blue);
+  margin: 0 0 27px 0;
+}
+
+.title{
+  font-size: 28px;
+  color: var(--title);
+  margin-bottom: 27px;
+}
+
+.some-text {
+  margin-bottom: 22px;
+}
+
+.link-ref {
+  margin: 0;
+  text-decoration: none;
+  color: var(--blue);
+}
+
+#interface {
+  margin: 0 auto;
+  width: 1440px;
+  display: flex;
+}
+
+.about-interface {
+  margin-left: 162px;
+  padding: 217px 0 171px;
+}
+
+.about-interface .some-text {
+  width: 480px;
+  line-height: 23px;
+}
+
+.picture {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.mobile_phone {
+  position: relative;
+  margin-top: 104px;
+}
+
+.mobile_phone::before {
+  content: "";
+  background: url(../img/Group69.svg);
+  background-size: contain;
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 63px;
+  left: 37px;
+}
+
+.mobile_phone::after {
+  content: "";
+  background: url(../img/Group70.svg);
+  background-size: contain;
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  bottom: 123px;
+  right: -18px;
+}
+
+.first_circle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+  border: dashed 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.second_circle {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+  border: dashed 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.third_circle {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  z-index: -3;
+  border: solid 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.fourth_circle {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  z-index: -3;
+  border-left: solid 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.fifth_circle {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  z-index: -3;
+  border-left: solid 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.sixth_circle {
+  position: absolute;
+  width: 1400px;
+  height: 1400px;
+  z-index: -3;
+  border-left: solid 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.seventh_circle {
+  position: absolute;
+  width: 1600px;
+  height: 1600px;
+  z-index: -3;
+  border-left: solid 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.eighth_circle {
+  position: absolute;
+  width: 1800px;
+  height: 1800px;
+  z-index: -3;
+  border-left: solid 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.ninth_circle {
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  z-index: -3;
+  border-left: solid 1px var(--blue);
+  margin: auto;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.1;
+  overflow: hidden;
+}
