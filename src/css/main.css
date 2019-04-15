@@ -239,10 +239,10 @@ body {
   background: url(../img/Group69.svg);
   background-size: contain;
   position: absolute;
-  width: 91px;
-  height: 91px;
+  width: 98px;
+  height: 98px;
   top: 63px;
-  left: 37px;
+  left: 32px;
 }
 
 .mobile_phone::after {
@@ -250,10 +250,10 @@ body {
   background: url(../img/Group70.svg);
   background-size: contain;
   position: absolute;
-  width: 91px;
-  height: 91px;
+  width: 98px;
+  height: 98px;
   bottom: 123px;
-  right: -18px;
+  right: -19px;
 }
 
 .first_circle {
@@ -264,8 +264,8 @@ body {
   border: dashed 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
-  left: 0;
+  top: 58px;
+  left: 19px;
   bottom: 0;
   right: 0;
 }
@@ -278,10 +278,19 @@ body {
   border: dashed 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
-  left: 0;
+  top: 58px;
+  left: 19px;
   bottom: 0;
   right: 0;
+}
+
+.dot {
+  background: url(../img/Group696.svg) no-repeat center;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  bottom: 150px;
+  left: 129px;
 }
 
 .third_circle {
@@ -292,7 +301,7 @@ body {
   border: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
+  top: 58px;
   bottom: 0;
   opacity: 0.1;
   overflow: hidden;
@@ -306,7 +315,7 @@ body {
   border-left: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
+  top: 58px;
   bottom: 0;
   opacity: 0.1;
   overflow: hidden;
@@ -320,7 +329,7 @@ body {
   border-left: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
+  top: 58px;
   bottom: 0;
   opacity: 0.1;
   overflow: hidden;
@@ -334,7 +343,7 @@ body {
   border-left: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
+  top: 58px;
   bottom: 0;
   opacity: 0.1;
   overflow: hidden;
@@ -348,7 +357,7 @@ body {
   border-left: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
+  top: 58px;
   bottom: 0;
   opacity: 0.1;
   overflow: hidden;
@@ -362,7 +371,7 @@ body {
   border-left: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
+  top: 58px;
   bottom: 0;
   opacity: 0.1;
   overflow: hidden;
@@ -376,7 +385,7 @@ body {
   border-left: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 0;
+  top: 58px;
   bottom: 0;
   opacity: 0.1;
   overflow: hidden;
