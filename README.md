@@ -9,3 +9,4 @@ This application is designed for football fans.
 ### Technologies are used
 
 - *HTML*
+- *CSS*
