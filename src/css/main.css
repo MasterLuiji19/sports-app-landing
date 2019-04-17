@@ -22,7 +22,7 @@ body {
   color: var(--text-color);
 }
 
-#general-section {
+.general-section {
   background: url(../img/Frame.png) no-repeat right;
   background-color: var(--background);
   width: 1440px;
@@ -59,7 +59,7 @@ body {
   margin-right: 37px;
 }
 
-#description-app {
+.description-app {
   display: flex;
   width: 1440px;
   margin: auto;
@@ -204,10 +204,11 @@ body {
   color: var(--blue);
 }
 
-#interface {
+.interface {
   margin: 0 auto;
   width: 1440px;
   display: flex;
+  overflow: hidden;
 }
 
 .about-interface {
@@ -303,8 +304,7 @@ body {
   border-radius: 50%;
   top: 58px;
   bottom: 0;
-  opacity: 0.1;
-  overflow: hidden;
+  opacity: 0.2;
 }
 
 .fourth_circle {
@@ -317,8 +317,7 @@ body {
   border-radius: 50%;
   top: 58px;
   bottom: 0;
-  opacity: 0.1;
-  overflow: hidden;
+  opacity: 0.2;
 }
 
 .fifth_circle {
@@ -331,8 +330,7 @@ body {
   border-radius: 50%;
   top: 58px;
   bottom: 0;
-  opacity: 0.1;
-  overflow: hidden;
+  opacity: 0.2;
 }
 
 .sixth_circle {
@@ -346,7 +344,6 @@ body {
   top: 58px;
   bottom: 0;
   opacity: 0.1;
-  overflow: hidden;
 }
 
 .seventh_circle {
@@ -360,7 +357,6 @@ body {
   top: 58px;
   bottom: 0;
   opacity: 0.1;
-  overflow: hidden;
 }
 
 .eighth_circle {
@@ -374,7 +370,6 @@ body {
   top: 58px;
   bottom: 0;
   opacity: 0.1;
-  overflow: hidden;
 }
 
 .ninth_circle {
@@ -388,5 +383,6 @@ body {
   top: 58px;
   bottom: 0;
   opacity: 0.1;
-  overflow: hidden;
 }
+
+
