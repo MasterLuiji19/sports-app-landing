@@ -23,9 +23,11 @@ body {
 }
 
 .general-section {
-  background: url(../img/Frame.png) no-repeat right;
+  background: url(../img/phones_frame.png) no-repeat right;
+  background-size: contain;
   background-color: var(--background);
-  width: 1440px;
+  width: 100%;
+  height: 100vh;
   margin: auto;
 }
 
@@ -385,4 +387,7 @@ body {
   opacity: 0.1;
 }
 
+.options-list {
+  background: url(../img/background_blue.jpg) no-repeat center;
 
+}
