@@ -387,6 +387,36 @@ body {
   opacity: 0.1;
 }
 
-.options-list {
+.options-description {
+  margin: 0 auto;
   background: url(../img/background_blue.jpg) no-repeat center;
+  background-size: cover;
+  width: 1440px;
+}
+
+.options-description__title {
+  font-size: 28px;
+  color: var(--white);
+  text-align: center;
+  margin: 0px 0px 58px 0px;
+  padding-top: 70px;
+}
+
+.options-description__list {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--white);
+  justify-content: center;
+}
+
+.list-item {
+  list-style-type: none;
+  width: 311px;
+  margin: 0px 90px 97px 0px; 
+}
+
+.options_description__text::before {
+  content: "• ";
+  color: var(--white);
+  font-family: var(--main_font);
 }
