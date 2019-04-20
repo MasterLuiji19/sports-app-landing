@@ -12,6 +12,7 @@
   --form-back: #eeeeee;
   --input: #979797;
   --blue: #00adee;
+  --card: #828282;
 }
 
 body {
@@ -412,11 +413,53 @@ body {
 .list-item {
   list-style-type: none;
   width: 311px;
-  margin: 0px 90px 97px 0px; 
+  margin: 0 90px 97px 0;
 }
 
 .options_description__text::before {
   content: "• ";
   color: var(--white);
   font-family: var(--main_font);
+}
+
+.users-say {
+  margin: 0 auto;
+}
+
+.users-say__title {
+  font-size: 28px;
+  color: var(--title);
+  text-align: center;
+  margin: 0px 0px 58px 0px;
+  padding-top: 70px;
+}
+
+.card {
+  border: solid 1px var(--card);
+  border-radius: 4px;
+  margin-right: 36px;
+  height: 161px;
+  padding-left: 17px;
+}
+
+.user-info {
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.user-name {
+  color: var(--title);
+  margin: 11px;
+}
+
+.twitter-logo {
+  align-self: flex-end;
 }
