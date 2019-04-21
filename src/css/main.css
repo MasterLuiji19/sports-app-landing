@@ -13,6 +13,7 @@
   --input: #979797;
   --blue: #00adee;
   --card: #828282;
+  --partners: #fafafa;
 }
 
 body {
@@ -440,6 +441,7 @@ body {
   margin-right: 36px;
   height: 161px;
   padding-left: 17px;
+  padding-right: 5px;
 }
 
 .user-info {
@@ -462,4 +464,84 @@ body {
 
 .twitter-logo {
   align-self: flex-end;
+}
+
+.partners {
+  margin: 0 auto;
+  width: 100%;
+  background: var(--partners);
+}
+
+.partners__title {
+  margin: 0 auto;
+  font-size: 28px;
+  padding-top: 57px;
+  padding-bottom: 58px;
+  text-align: center;
+}
+
+.partners__list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 68px;
+  margin: 0;
+}
+
+.get-up{
+  width: 100%;
+  display: flex;
+}
+
+.get-up__left {
+  flex-basis: 50%;
+  background: url(../img/Group%20692.png)no-repeat left;
+}
+
+.get-up__right {
+  flex-basis: 50%;
+  margin-left: 76px;
+}
+
+.get-up__content {
+  margin: 105px 0px 98px 0px;
+  width: 535px;
+}
+
+.content__title {
+  font-size: 28px;
+}
+
+.content__text {
+  line-height: 25px;
+}
+
+.footer__line {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background: var(--blue);
+  align-items: center;
+  padding: 47px 0 48px 0;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.item-list {
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 37px;
+}
+
+.social__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.social__list-item {
+  margin-right: 17px;
 }
