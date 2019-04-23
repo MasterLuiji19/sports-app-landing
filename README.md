@@ -5,8 +5,3 @@ You can learn more about the application by clicking on the [link](https://maste
 ### Description
 
 This application is designed for football fans.
-
-### Technologies are used
-
-- *HTML*
-- *CSS*
