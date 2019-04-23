@@ -506,23 +506,22 @@ body {
 
 .get-up__right {
   flex-basis: 50%;
-  margin-left: 76px;
+  margin: 105px 0 67px;
+  padding-left: 76px;
 }
 
-.get-up__content {
-  margin: 105px 0px 98px 0px;
-  width: 535px;
-}
-
-.content__title {
+.get-up__right-title {
   font-size: 28px;
+  margin-bottom: 35px;
 }
 
-.content__text {
+.get-up__right-text {
   line-height: 25px;
+  width: 535px;
+  margin-bottom: 38px;
 }
 
-.footer__line {
+.footer {
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -531,22 +530,22 @@ body {
   padding: 47px 0 48px 0;
 }
 
-.nav__list {
+.nav-list {
   display: flex;
   list-style-type: none;
 }
 
-.item-list {
+.list_a {
   color: var(--white);
   text-decoration: none;
   margin-right: 37px;
 }
 
-.social__list {
+.social-list {
   display: flex;
   list-style-type: none;
 }
 
-.social__list-item {
+.social_a {
   margin-right: 17px;
 }
