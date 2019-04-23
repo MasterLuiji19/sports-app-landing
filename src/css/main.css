@@ -208,6 +208,11 @@ body {
   color: var(--blue);
 }
 
+.link-ref:hover {
+  text-decoration: underline;
+}
+
+
 .interface {
   margin: 0 auto;
   width: 1440px;
