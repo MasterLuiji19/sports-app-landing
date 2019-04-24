@@ -207,6 +207,10 @@ body {
   color: var(--blue);
 }
 
+.link-ref:hover {
+  text-decoration: underline;
+}
+
 .interface {
   margin: 0 auto;
   display: flex;
@@ -391,7 +395,6 @@ body {
   margin: 0 auto;
   background: url(../img/background_blue.jpg) no-repeat center;
   background-size: cover;
-  width: 1440px;
 }
 
 .options-description__title {
@@ -431,6 +434,41 @@ body {
   text-align: center;
   margin: 0px 0px 58px 0px;
   padding-top: 70px;
+}
+
+.twitter {
+  width: 90%;
+  margin: auto;
+}
+
+.button_prev,
+.button_next {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 1px solid var(--blue);
+  outline: none;
+  position: absolute;
+  top: 55px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button_prev:active,
+.button_next:active {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.button_prev {
+  left: -60px;
+  background: var(--white) url("../img/Shape.svg") no-repeat 48%;
+}
+
+.button_next {
+  right: -60px;
+  background: var(--white) url("../img/Shape_right.svg") no-repeat 52%;
 }
 
 .card {
@@ -499,47 +537,46 @@ body {
 
 .get-up__right {
   flex-basis: 50%;
-  margin-left: 76px;
+  margin: 105px 0 67px;
+  padding-left: 76px;
 }
 
-.get-up__content {
-  margin: 105px 0px 98px 0px;
-  width: 535px;
-}
-
-.content__title {
+.get-up__right-title {
   font-size: 28px;
+  margin-bottom: 35px;
 }
 
-.content__text {
+.get-up__right-text {
   line-height: 25px;
+  width: 535px;
+  margin-bottom: 38px;
 }
 
-.footer__line {
+.footer {
   margin: 0;
   display: flex;
   justify-content: space-between;
   background: var(--blue);
   align-items: center;
-  padding: 47px 0 48px 0;
+  padding: 47px 136px 48px 163px;
 }
 
-.nav__list {
+.nav-list {
   display: flex;
   list-style-type: none;
 }
 
-.item-list {
+.list_a {
   color: var(--white);
   text-decoration: none;
   margin-right: 37px;
 }
 
-.social__list {
+.social-list {
   display: flex;
   list-style-type: none;
 }
 
-.social__list-item {
+.social_a {
   margin-right: 17px;
 }

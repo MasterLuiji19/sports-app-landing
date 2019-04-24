@@ -1,4 +1,6 @@
 $('.twitter').slick({
+  prevArrow: '<div class="button_prev"></div>',
+  nextArrow: '<div class="button_next"></div>',
   dots: true,
   centerMode: true,
   centerPadding: '60px',
