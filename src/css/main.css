@@ -65,7 +65,6 @@ body {
 
 .description-app {
   display: flex;
-  width: 1440px;
   margin: auto;
 }
 
@@ -210,7 +209,6 @@ body {
 
 .interface {
   margin: 0 auto;
-  width: 1440px;
   display: flex;
   overflow: hidden;
 }
@@ -287,15 +285,6 @@ body {
   left: 19px;
   bottom: 0;
   right: 0;
-}
-
-.dot {
-  background: url(../img/Group696.svg) no-repeat center;
-  width: 44px;
-  height: 44px;
-  position: absolute;
-  bottom: 150px;
-  left: 129px;
 }
 
 .third_circle {
@@ -387,6 +376,15 @@ body {
   top: 58px;
   bottom: 0;
   opacity: 0.1;
+}
+
+.dot {
+  background: url(../img/Group696.svg) no-repeat center;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  bottom: 150px;
+  left: 129px;
 }
 
 .options-description {
