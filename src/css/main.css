@@ -212,14 +212,19 @@ body {
 }
 
 .interface {
-  margin: 0 auto;
-  display: flex;
   overflow: hidden;
+}
+
+.interface-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
 }
 
 .about-interface {
   margin-left: 162px;
-  padding: 217px 0 171px;
+  padding-top: 217px;
 }
 
 .about-interface .some-text {
@@ -238,7 +243,8 @@ body {
 
 .mobile_phone {
   position: relative;
-  margin-top: 104px;
+  margin-top: 100px;
+  z-index: 1;
 }
 
 .mobile_phone::before {
@@ -271,10 +277,8 @@ body {
   border: dashed 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 58px;
-  left: 19px;
+  top: 0;
   bottom: 0;
-  right: 0;
 }
 
 .second_circle {
@@ -285,10 +289,38 @@ body {
   border: dashed 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 58px;
-  left: 19px;
+  top: 0;
   bottom: 0;
-  right: 0;
+}
+
+.second_circle2 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.dotted {
+  width: 40px;
+  height: 40px;
+  margin-top: 458px;
+  margin-left: 40px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .third_circle {
@@ -299,9 +331,9 @@ body {
   border: solid 1px var(--blue);
   margin: auto;
   border-radius: 50%;
-  top: 58px;
+  top: 0;
   bottom: 0;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .fourth_circle {
@@ -380,15 +412,6 @@ body {
   top: 58px;
   bottom: 0;
   opacity: 0.1;
-}
-
-.dot {
-  background: url(../img/Group696.svg) no-repeat center;
-  width: 44px;
-  height: 44px;
-  position: absolute;
-  bottom: 150px;
-  left: 129px;
 }
 
 .options-description {
