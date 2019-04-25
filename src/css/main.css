@@ -595,6 +595,10 @@ body {
   margin-right: 37px;
 }
 
+.list_a:hover {
+  text-decoration: underline;
+}
+
 .social-list {
   display: flex;
   list-style-type: none;
